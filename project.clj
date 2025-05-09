@@ -1,4 +1,4 @@
-(defproject seql "0.2.4"
+(defproject seql "0.2.5"
   :description "schema migrations for the masses"
   :url "https://github.com/it0a/seql"
   :license {:name "Eclipse Public License"
@@ -7,7 +7,7 @@
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [org.clojure/tools.cli "0.3.1"]
                  [org.clojure/java.jdbc "0.3.7"]
-                 [mysql/mysql-connector-java "5.1.6"]
+                 [mysql/mysql-connector-java "8.0.30"]
                  [pandect "0.5.2"]
                  [org.clojure/data.codec "0.1.0"]
                  [crypto-password "0.2.0"]]
